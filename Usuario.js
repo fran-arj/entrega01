@@ -10,19 +10,27 @@ class Usuario{
         const fullname = `Nombre: ${this.nombre} Apellido: ${this.apellido} `;
         return fullname;
     }
-    addMascota(string){
-        //return void;
+
+    addMascota(nombreMascota){
+        this.mascotas.push(nombreMascota);
     }
-    countMascotas(){
-        //return Number;
+
+    getCountMascotas(){
+        return this.mascotas.length;
     }
-    addBook(/*String,String*/){
-        //return void;
+
+    addBook(nombre, autor){
+        const libro = {
+            nombre,
+            autor
+        }
+        this.libros.push(libro);
     }
-    getBookName(){
-        //return [];
+
+    getBookNames(){
+      const bookNames = this.libros.map(item => item.nombre);
+      return bookNames;  
     }
 }
 
 module.exports = Usuario;
-
