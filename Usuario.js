@@ -1,28 +1,28 @@
 class Usuario{
     constructor(nombre, apellido, libros, mascotas) {
-        this.nombre;
-        this.apellido;
-        this.libros;
-        this.mascotas;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.libros = libros;
+        this.mascotas = mascotas;
     }
 
     getFullName(){
-        const fullname = `Nombre: ${nombre} Apellido: ${apellido} `;
+        const fullname = `Nombre: ${this.nombre} Apellido: ${this.apellido} `;
         return fullname;
     }
     addMascota(string){
-        return void;
+        //return void;
     }
     countMascotas(){
-        return Number;
+        //return Number;
     }
-    addBook(String,String){
-        return void;
+    addBook(/*String,String*/){
+        //return void;
     }
     getBookName(){
-        return [];
+        //return [];
     }
 }
 
-const user1 = new Usuario("Carlos","Perz","","");
-console.log(user1.getFullName);
+module.exports = Usuario;
+
