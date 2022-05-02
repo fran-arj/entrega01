@@ -1,3 +1,4 @@
+const Contenedor = require('./Contenedor');
 // -------------------------------------
 // ------------- test ------------------
 // --- instancia de prueba ---
@@ -19,6 +20,7 @@ thumbnail: 'adasd.png',
 // --- save(Object): Number ---
 const saveID = misDatos.save(data1);
 console.log('saveID', saveID);
+
 
 // --- getById(Number): Object ---
 /* const resultID = misDatos.getById(1);

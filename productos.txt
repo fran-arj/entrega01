@@ -1,0 +1,14 @@
+[
+  {
+    "tittle": "Tablet",
+    "price": "412",
+    "thumbnail": "tablet.png",
+    "id": 1
+  },
+  {
+    "tittle": "asdassa",
+    "price": "999",
+    "thumbnail": "adasd.png",
+    "id": 2
+  }
+]
